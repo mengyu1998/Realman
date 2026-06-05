@@ -1,0 +1,618 @@
+ROS2 Humble installation started!
+Installation logs will be saved to ./ros2_humble_install.log
+Installation errors will be saved to ./ros2_humble_install.err
+Current system architecture is: x86_64
+Current mirror is: https://mirrors.tuna.tsinghua.edu.cn/ubuntu/
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (7.81.0-1ubuntu1.23).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+software-properties-common is already the newest version (0.99.22.9).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Hit:1 http://packages.ros.org/ros2/ubuntu jammy InRelease
+Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]
+Hit:3 https://deb.nodesource.com/node_22.x nodistro InRelease
+Get:4 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy InRelease [270 kB]
+Get:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates InRelease [128 kB]
+Get:6 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports InRelease [127 kB]
+Get:7 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages [814 kB]
+Get:8 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy InRelease [4,682 B]
+Get:9 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 Packages [1,040 kB]
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [3,174 kB]
+Get:11 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 Packages [1,395 kB]
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [448 kB]
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [54.5 kB]
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 48x48 Icons [20.3 kB]
+Get:15 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 64x64 Icons [31.6 kB]
+Get:16 http://security.ubuntu.com/ubuntu jammy-security/main DEP-11 64x64@2 Icons [29 B]
+Get:17 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [14.2 kB]
+Get:18 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [5,594 kB]
+Get:19 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main Translation-en [510 kB]
+Get:20 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 DEP-11 Metadata [423 kB]
+Get:21 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main DEP-11 48x48 Icons [100.0 kB]
+Get:22 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main DEP-11 64x64 Icons [148 kB]
+Get:23 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main DEP-11 64x64@2 Icons [15.8 kB]
+Get:24 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main amd64 c-n-f Metadata [30.3 kB]
+Get:25 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/restricted amd64 Packages [129 kB]
+Get:26 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/restricted i386 Packages [30.4 kB]
+Get:27 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/restricted Translation-en [18.6 kB]
+Get:28 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/restricted amd64 c-n-f Metadata [488 B]
+Get:29 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe i386 Packages [7,474 kB]
+Get:30 https://mirrors.ustc.edu.cn/ros2/ubuntu jammy InRelease [4,682 B]
+Get:31 http://security.ubuntu.com/ubuntu jammy-security/restricted i386 Packages [50.1 kB]
+Get:32 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [1,070 kB]
+Get:33 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 DEP-11 Metadata [208 B]
+Get:34 http://security.ubuntu.com/ubuntu jammy-security/restricted DEP-11 48x48 Icons [29 B]
+Get:35 http://security.ubuntu.com/ubuntu jammy-security/restricted DEP-11 64x64 Icons [29 B]
+Get:36 http://security.ubuntu.com/ubuntu jammy-security/restricted DEP-11 64x64@2 Icons [29 B]
+Get:37 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 c-n-f Metadata [680 B]
+Get:38 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1,029 kB]
+Get:39 http://security.ubuntu.com/ubuntu jammy-security/universe i386 Packages [694 kB]
+Get:40 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [226 kB]
+Get:41 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 DEP-11 Metadata [126 kB]
+Get:42 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 48x48 Icons [82.0 kB]
+Get:43 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 64x64 Icons [122 kB]
+Get:44 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 64x64@2 Icons [29 B]
+Get:45 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [22.9 kB]
+Get:46 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [52.3 kB]
+Get:47 http://security.ubuntu.com/ubuntu jammy-security/multiverse i386 Packages [5,576 B]
+Get:48 http://security.ubuntu.com/ubuntu jammy-security/multiverse Translation-en [10.5 kB]
+Get:49 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 DEP-11 Metadata [208 B]
+Get:50 http://security.ubuntu.com/ubuntu jammy-security/multiverse DEP-11 48x48 Icons [29 B]
+Get:51 http://security.ubuntu.com/ubuntu jammy-security/multiverse DEP-11 64x64 Icons [29 B]
+Get:52 http://security.ubuntu.com/ubuntu jammy-security/multiverse DEP-11 64x64@2 Icons [29 B]
+Get:53 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 c-n-f Metadata [388 B]
+Get:54 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 Packages [14.1 MB]
+Get:55 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe Translation-en [5,652 kB]
+Get:56 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 DEP-11 Metadata [3,559 kB]
+Get:57 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe DEP-11 48x48 Icons [3,447 kB]
+Get:58 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe DEP-11 64x64 Icons [7,609 kB]
+Get:59 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe DEP-11 64x64@2 Icons [69.3 kB]
+Get:60 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 c-n-f Metadata [286 kB]
+Get:61 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse i386 Packages [112 kB]
+Get:62 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse amd64 Packages [217 kB]
+Get:63 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse Translation-en [112 kB]
+Get:64 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse amd64 DEP-11 Metadata [42.1 kB]
+Get:65 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse DEP-11 48x48 Icons [42.7 kB]
+Get:66 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse DEP-11 64x64 Icons [193 kB]
+Get:67 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse DEP-11 64x64@2 Icons [214 B]
+Get:68 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/multiverse amd64 c-n-f Metadata [8,372 B]
+Get:69 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 Packages [998 kB]
+Get:70 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 Packages [3,440 kB]
+Get:71 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main Translation-en [519 kB]
+Get:72 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 DEP-11 Metadata [114 kB]
+Get:73 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main DEP-11 48x48 Icons [37.0 kB]
+Get:74 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main DEP-11 64x64 Icons [56.3 kB]
+Get:75 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main DEP-11 64x64@2 Icons [29 B]
+Get:76 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 c-n-f Metadata [19.7 kB]
+Get:77 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 Packages [5,826 kB]
+Get:78 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted i386 Packages [52.7 kB]
+Get:79 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted Translation-en [1,102 kB]
+Get:80 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 DEP-11 Metadata [212 B]
+Get:81 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted DEP-11 48x48 Icons [29 B]
+Get:82 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted DEP-11 64x64 Icons [29 B]
+Get:83 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted DEP-11 64x64@2 Icons [29 B]
+Get:84 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [600 B]
+Get:85 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 Packages [1,268 kB]
+Get:86 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe i386 Packages [806 kB]
+Get:87 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe Translation-en [315 kB]
+Get:88 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 DEP-11 Metadata [360 kB]
+Get:89 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe DEP-11 48x48 Icons [253 kB]
+Get:90 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe DEP-11 64x64 Icons [410 kB]
+Get:91 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe DEP-11 64x64@2 Icons [29 B]
+Get:92 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/universe amd64 c-n-f Metadata [30.5 kB]
+Get:93 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/multiverse i386 Packages [8,944 B]
+Get:94 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/multiverse amd64 Packages [71.3 kB]
+Get:95 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/multiverse Translation-en [15.5 kB]
+Get:96 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Get:97 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/multiverse DEP-11 48x48 Icons [1,867 B]
+Get:98 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/multiverse DEP-11 64x64 Icons [2,497 B]
+Get:99 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/multiverse DEP-11 64x64@2 Icons [29 B]
+Get:100 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/multiverse amd64 c-n-f Metadata [756 B]
+Get:101 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/main i386 Packages [61.6 kB]
+Get:102 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/main amd64 Packages [70.1 kB]
+Get:103 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/main Translation-en [11.4 kB]
+Get:104 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/main amd64 DEP-11 Metadata [7,364 B]
+Get:105 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/main DEP-11 48x48 Icons [9,537 B]
+Get:106 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/main DEP-11 64x64 Icons [11.3 kB]
+Get:107 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/main DEP-11 64x64@2 Icons [29 B]
+Get:108 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/main amd64 c-n-f Metadata [412 B]
+Get:109 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/restricted amd64 DEP-11 Metadata [212 B]
+Get:110 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/restricted DEP-11 48x48 Icons [29 B]
+Get:111 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/restricted DEP-11 64x64 Icons [29 B]
+Get:112 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/restricted DEP-11 64x64@2 Icons [29 B]
+Get:113 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/restricted amd64 c-n-f Metadata [116 B]
+Get:114 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/universe i386 Packages [19.6 kB]
+Get:115 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/universe amd64 Packages [30.8 kB]
+Get:116 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/universe Translation-en [16.9 kB]
+Get:117 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/universe amd64 DEP-11 Metadata [12.4 kB]
+Get:118 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/universe DEP-11 48x48 Icons [19.7 kB]
+Get:119 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/universe DEP-11 64x64 Icons [28.2 kB]
+Get:120 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/universe DEP-11 64x64@2 Icons [29 B]
+Get:121 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/universe amd64 c-n-f Metadata [676 B]
+Get:122 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/multiverse amd64 DEP-11 Metadata [212 B]
+Get:123 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/multiverse DEP-11 48x48 Icons [29 B]
+Get:124 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/multiverse DEP-11 64x64 Icons [29 B]
+Get:125 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/multiverse DEP-11 64x64@2 Icons [29 B]
+Get:126 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports/multiverse amd64 c-n-f Metadata [116 B]
+Get:127 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 Packages [1,767 kB]
+Fetched 78.8 MB in 34s (2,306 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages have been kept back:
+  iproute2 libnetplan0 libnvidia-cfg1-550 libnvidia-common-550
+  libnvidia-compute-550 libnvidia-decode-550 libnvidia-encode-550
+  libnvidia-extra-550 libnvidia-fbc1-550 libnvidia-gl-550 netplan.io
+  nvidia-compute-utils-550 nvidia-dkms-550 nvidia-driver-550
+  nvidia-kernel-common-550 nvidia-kernel-source-550 nvidia-utils-550
+  xserver-xorg-video-nvidia-550
+The following packages will be upgraded:
+  ubuntu-advantage-tools ubuntu-pro-client ubuntu-pro-client-l10n
+3 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Need to get 269 kB of archives.
+After this operation, 1,024 B of additional disk space will be used.
+Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 ubuntu-pro-client-l10n amd64 37.2ubuntu~22.04 [20.7 kB]
+Get:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 ubuntu-pro-client amd64 37.2ubuntu~22.04 [237 kB]
+Get:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 ubuntu-advantage-tools all 37.2ubuntu~22.04 [10.9 kB]
+Preconfiguring packages ...
+Fetched 269 kB in 0s (785 kB/s)
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 337894 files and directories currently installed.)
+Preparing to unpack .../ubuntu-pro-client-l10n_37.2ubuntu~22.04_amd64.deb ...
+Unpacking ubuntu-pro-client-l10n (37.2ubuntu~22.04) over (37.1ubuntu0~22.04) ...
+Preparing to unpack .../ubuntu-pro-client_37.2ubuntu~22.04_amd64.deb ...
+Unpacking ubuntu-pro-client (37.2ubuntu~22.04) over (37.1ubuntu0~22.04) ...
+Preparing to unpack .../ubuntu-advantage-tools_37.2ubuntu~22.04_all.deb ...
+Unpacking ubuntu-advantage-tools (37.2ubuntu~22.04) over (37.1ubuntu0~22.04) ...
+Setting up ubuntu-pro-client (37.2ubuntu~22.04) ...
+Installing new version of config file /etc/apparmor.d/ubuntu_pro_esm_cache ...
+Setting up ubuntu-pro-client-l10n (37.2ubuntu~22.04) ...
+Setting up ubuntu-advantage-tools (37.2ubuntu~22.04) ...
+Processing triggers for man-db (2.10.2-1) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-dev is already the newest version (3.10.6-1~22.04.1).
+python3-dev set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3-pip is already the newest version (22.0.2+dfsg-1ubuntu0.7).
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gnome-terminal is already the newest version (3.44.0-1ubuntu1).
+gnome-terminal set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Writing to /root/.config/pip/pip.conf
+Writing to /root/.config/pip/pip.conf
+Reading package lists...
+Building dependency tree...
+Reading state information...
+software-properties-common is already the newest version (0.99.22.9).
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Adding component(s) 'universe' to all repositories.
+Press [ENTER] to continue or Ctrl-c to cancel.Hit:1 https://mirrors.ustc.edu.cn/ros2/ubuntu jammy InRelease
+Hit:2 http://packages.ros.org/ros2/ubuntu jammy InRelease
+Hit:3 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:4 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy InRelease
+Hit:5 https://deb.nodesource.com/node_22.x nodistro InRelease
+Hit:6 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates InRelease
+Hit:7 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports InRelease
+Hit:8 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy InRelease
+Reading package lists...
+Hit:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy InRelease
+Hit:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates InRelease
+Hit:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports InRelease
+Hit:4 http://packages.ros.org/ros2/ubuntu jammy InRelease
+Hit:5 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy InRelease
+Hit:6 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:7 https://mirrors.ustc.edu.cn/ros2/ubuntu jammy InRelease
+Hit:8 https://deb.nodesource.com/node_22.x nodistro InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ros-humble-desktop is already the newest version (0.10.0-1jammy.20260326.022353).
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+gazebo is already the newest version (11.10.2+dfsg-1).
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+ros-humble-gazebo-dev is already the newest version (3.9.0-1jammy.20260304.090426).
+ros-humble-gazebo-dev set to manually installed.
+ros-humble-gazebo-msgs is already the newest version (3.9.0-1jammy.20260304.215513).
+ros-humble-gazebo-msgs set to manually installed.
+ros-humble-gazebo-plugins is already the newest version (3.9.0-1jammy.20260325.235919).
+ros-humble-gazebo-plugins set to manually installed.
+ros-humble-gazebo-ros is already the newest version (3.9.0-1jammy.20260325.220654).
+ros-humble-gazebo-ros set to manually installed.
+ros-humble-gazebo-ros-pkgs is already the newest version (3.9.0-1jammy.20260326.010330).
+The following additional packages will be installed:
+  python3-pygraphviz ros-humble-ackermann-msgs
+  ros-humble-diff-drive-controller ros-humble-effort-controllers
+  ros-humble-imu-sensor-broadcaster ros-humble-joint-limits
+  ros-humble-ros2-control ros-humble-ros2-control-test-assets
+  ros-humble-ros2controlcli ros-humble-transmission-interface
+  ros-humble-tricycle-controller ros-humble-velocity-controllers
+Suggested packages:
+  python-pygraphviz-doc
+The following NEW packages will be installed:
+  python3-pygraphviz ros-humble-ackermann-msgs
+  ros-humble-diff-drive-controller ros-humble-effort-controllers
+  ros-humble-gazebo-model-attachment-plugin
+  ros-humble-gazebo-model-attachment-plugin-dbgsym
+  ros-humble-gazebo-model-attachment-plugin-msgs
+  ros-humble-gazebo-model-attachment-plugin-msgs-dbgsym
+  ros-humble-gazebo-msgs-dbgsym ros-humble-gazebo-no-physics-plugin
+  ros-humble-gazebo-no-physics-plugin-dbgsym
+  ros-humble-gazebo-planar-move-plugin
+  ros-humble-gazebo-planar-move-plugin-dbgsym ros-humble-gazebo-plugins-dbgsym
+  ros-humble-gazebo-ros-dbgsym ros-humble-gazebo-ros2-control
+  ros-humble-gazebo-ros2-control-dbgsym ros-humble-gazebo-ros2-control-demos
+  ros-humble-gazebo-ros2-control-demos-dbgsym
+  ros-humble-gazebo-set-joint-positions-plugin
+  ros-humble-gazebo-set-joint-positions-plugin-dbgsym
+  ros-humble-gazebo-video-monitor-interfaces
+  ros-humble-gazebo-video-monitor-interfaces-dbgsym
+  ros-humble-gazebo-video-monitor-plugins
+  ros-humble-gazebo-video-monitor-plugins-dbgsym
+  ros-humble-gazebo-video-monitor-utils ros-humble-gazebo-video-monitors
+  ros-humble-imu-sensor-broadcaster ros-humble-joint-limits
+  ros-humble-ros2-control ros-humble-ros2-control-test-assets
+  ros-humble-ros2controlcli ros-humble-transmission-interface
+  ros-humble-tricycle-controller ros-humble-velocity-controllers
+0 upgraded, 35 newly installed, 0 to remove and 18 not upgraded.
+Need to get 115 MB of archives.
+After this operation, 143 MB of additional disk space will be used.
+Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/universe amd64 python3-pygraphviz amd64 1.7-3build1 [78.9 kB]
+Get:2 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-ackermann-msgs amd64 2.0.2-3jammy.20260304.212924 [47.8 kB]
+Get:3 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-diff-drive-controller amd64 2.52.1-1jammy.20260325.234409 [212 kB]
+Get:4 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-effort-controllers amd64 2.52.1-1jammy.20260325.235757 [21.3 kB]
+Get:5 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-model-attachment-plugin-msgs amd64 1.0.3-2jammy.20260325.220653 [59.3 kB]
+Get:6 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-model-attachment-plugin amd64 1.0.3-2jammy.20260325.224255 [100 kB]
+Get:7 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-model-attachment-plugin-dbgsym amd64 1.0.3-2jammy.20260325.224255 [1,696 kB]
+Get:8 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-model-attachment-plugin-msgs-dbgsym amd64 1.0.3-2jammy.20260325.220653 [245 kB]
+Get:9 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-msgs-dbgsym amd64 3.9.0-1jammy.20260304.215513 [3,942 kB]
+Get:10 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-no-physics-plugin amd64 0.1.1-2jammy.20260325.224259 [66.5 kB]
+Get:11 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-no-physics-plugin-dbgsym amd64 0.1.1-2jammy.20260325.224259 [873 kB]
+Get:12 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-planar-move-plugin amd64 1.0.2-1jammy.20260325.235916 [184 kB]
+Get:13 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-planar-move-plugin-dbgsym amd64 1.0.2-1jammy.20260325.235916 [3,314 kB]
+Get:14 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-plugins-dbgsym amd64 3.9.0-1jammy.20260325.235919 [57.2 MB]
+Get:15 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-ros-dbgsym amd64 3.9.0-1jammy.20260325.220654 [14.7 MB]
+Get:16 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-ros2-control amd64 0.4.10-1jammy.20260325.235140 [213 kB]
+Get:17 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-ros2-control-dbgsym amd64 0.4.10-1jammy.20260325.235140 [3,671 kB]
+Get:18 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-imu-sensor-broadcaster amd64 2.52.1-1jammy.20260325.235511 [79.3 kB]
+Get:19 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-joint-limits amd64 2.53.1-1jammy.20260325.224030 [134 kB]
+Get:20 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-ros2-control-test-assets amd64 2.53.1-1jammy.20260304.195056 [13.9 kB]
+Get:21 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-ros2controlcli amd64 2.53.1-1jammy.20260326.002213 [22.7 kB]
+Get:22 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-transmission-interface amd64 2.53.1-1jammy.20260326.001703 [50.8 kB]
+Get:23 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-ros2-control amd64 2.53.1-1jammy.20260326.002517 [6,644 B]
+Get:24 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-tricycle-controller amd64 2.52.1-1jammy.20260325.234257 [186 kB]
+Get:25 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-velocity-controllers amd64 2.52.1-1jammy.20260325.235838 [21.3 kB]
+Get:26 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-ros2-control-demos amd64 0.4.10-1jammy.20260326.002602 [111 kB]
+Get:27 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-ros2-control-demos-dbgsym amd64 0.4.10-1jammy.20260326.002602 [4,383 kB]
+Get:28 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-set-joint-positions-plugin amd64 1.0.3-1jammy.20260326.010453 [168 kB]
+Get:29 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-set-joint-positions-plugin-dbgsym amd64 1.0.3-1jammy.20260326.010453 [3,175 kB]
+Get:30 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-video-monitor-interfaces amd64 0.8.1-1jammy.20260304.211802 [101 kB]
+Get:31 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-video-monitor-interfaces-dbgsym amd64 0.8.1-1jammy.20260304.211802 [561 kB]
+Get:32 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-video-monitor-plugins amd64 0.8.1-1jammy.20260325.224319 [547 kB]
+Get:33 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-video-monitor-plugins-dbgsym amd64 0.8.1-1jammy.20260325.224319 [18.4 MB]
+Get:34 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-video-monitor-utils amd64 0.8.1-1jammy.20260310.165242 [5,870 B]
+Get:35 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-humble-gazebo-video-monitors amd64 0.8.1-1jammy.20260326.001033 [5,228 B]
+Fetched 115 MB in 37s (3,111 kB/s)
+Selecting previously unselected package python3-pygraphviz.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 337894 files and directories currently installed.)
+Preparing to unpack .../00-python3-pygraphviz_1.7-3build1_amd64.deb ...
+Unpacking python3-pygraphviz (1.7-3build1) ...
+Selecting previously unselected package ros-humble-ackermann-msgs.
+Preparing to unpack .../01-ros-humble-ackermann-msgs_2.0.2-3jammy.20260304.212924_amd64.deb ...
+Unpacking ros-humble-ackermann-msgs (2.0.2-3jammy.20260304.212924) ...
+Selecting previously unselected package ros-humble-diff-drive-controller.
+Preparing to unpack .../02-ros-humble-diff-drive-controller_2.52.1-1jammy.20260325.234409_amd64.deb ...
+Unpacking ros-humble-diff-drive-controller (2.52.1-1jammy.20260325.234409) ...
+Selecting previously unselected package ros-humble-effort-controllers.
+Preparing to unpack .../03-ros-humble-effort-controllers_2.52.1-1jammy.20260325.235757_amd64.deb ...
+Unpacking ros-humble-effort-controllers (2.52.1-1jammy.20260325.235757) ...
+Selecting previously unselected package ros-humble-gazebo-model-attachment-plugin-msgs.
+Preparing to unpack .../04-ros-humble-gazebo-model-attachment-plugin-msgs_1.0.3-2jammy.20260325.220653_amd64.deb ...
+Unpacking ros-humble-gazebo-model-attachment-plugin-msgs (1.0.3-2jammy.20260325.220653) ...
+Selecting previously unselected package ros-humble-gazebo-model-attachment-plugin.
+Preparing to unpack .../05-ros-humble-gazebo-model-attachment-plugin_1.0.3-2jammy.20260325.224255_amd64.deb ...
+Unpacking ros-humble-gazebo-model-attachment-plugin (1.0.3-2jammy.20260325.224255) ...
+Selecting previously unselected package ros-humble-gazebo-model-attachment-plugin-dbgsym.
+Preparing to unpack .../06-ros-humble-gazebo-model-attachment-plugin-dbgsym_1.0.3-2jammy.20260325.224255_amd64.deb ...
+Unpacking ros-humble-gazebo-model-attachment-plugin-dbgsym (1.0.3-2jammy.20260325.224255) ...
+Selecting previously unselected package ros-humble-gazebo-model-attachment-plugin-msgs-dbgsym.
+Preparing to unpack .../07-ros-humble-gazebo-model-attachment-plugin-msgs-dbgsym_1.0.3-2jammy.20260325.220653_amd64.deb ...
+Unpacking ros-humble-gazebo-model-attachment-plugin-msgs-dbgsym (1.0.3-2jammy.20260325.220653) ...
+Selecting previously unselected package ros-humble-gazebo-msgs-dbgsym.
+Preparing to unpack .../08-ros-humble-gazebo-msgs-dbgsym_3.9.0-1jammy.20260304.215513_amd64.deb ...
+Unpacking ros-humble-gazebo-msgs-dbgsym (3.9.0-1jammy.20260304.215513) ...
+Selecting previously unselected package ros-humble-gazebo-no-physics-plugin.
+Preparing to unpack .../09-ros-humble-gazebo-no-physics-plugin_0.1.1-2jammy.20260325.224259_amd64.deb ...
+Unpacking ros-humble-gazebo-no-physics-plugin (0.1.1-2jammy.20260325.224259) ...
+Selecting previously unselected package ros-humble-gazebo-no-physics-plugin-dbgsym.
+Preparing to unpack .../10-ros-humble-gazebo-no-physics-plugin-dbgsym_0.1.1-2jammy.20260325.224259_amd64.deb ...
+Unpacking ros-humble-gazebo-no-physics-plugin-dbgsym (0.1.1-2jammy.20260325.224259) ...
+Selecting previously unselected package ros-humble-gazebo-planar-move-plugin.
+Preparing to unpack .../11-ros-humble-gazebo-planar-move-plugin_1.0.2-1jammy.20260325.235916_amd64.deb ...
+Unpacking ros-humble-gazebo-planar-move-plugin (1.0.2-1jammy.20260325.235916) ...
+Selecting previously unselected package ros-humble-gazebo-planar-move-plugin-dbgsym.
+Preparing to unpack .../12-ros-humble-gazebo-planar-move-plugin-dbgsym_1.0.2-1jammy.20260325.235916_amd64.deb ...
+Unpacking ros-humble-gazebo-planar-move-plugin-dbgsym (1.0.2-1jammy.20260325.235916) ...
+Selecting previously unselected package ros-humble-gazebo-plugins-dbgsym.
+Preparing to unpack .../13-ros-humble-gazebo-plugins-dbgsym_3.9.0-1jammy.20260325.235919_amd64.deb ...
+Unpacking ros-humble-gazebo-plugins-dbgsym (3.9.0-1jammy.20260325.235919) ...
+Selecting previously unselected package ros-humble-gazebo-ros-dbgsym.
+Preparing to unpack .../14-ros-humble-gazebo-ros-dbgsym_3.9.0-1jammy.20260325.220654_amd64.deb ...
+Unpacking ros-humble-gazebo-ros-dbgsym (3.9.0-1jammy.20260325.220654) ...
+Selecting previously unselected package ros-humble-gazebo-ros2-control.
+Preparing to unpack .../15-ros-humble-gazebo-ros2-control_0.4.10-1jammy.20260325.235140_amd64.deb ...
+Unpacking ros-humble-gazebo-ros2-control (0.4.10-1jammy.20260325.235140) ...
+Selecting previously unselected package ros-humble-gazebo-ros2-control-dbgsym.
+Preparing to unpack .../16-ros-humble-gazebo-ros2-control-dbgsym_0.4.10-1jammy.20260325.235140_amd64.deb ...
+Unpacking ros-humble-gazebo-ros2-control-dbgsym (0.4.10-1jammy.20260325.235140) ...
+Selecting previously unselected package ros-humble-imu-sensor-broadcaster.
+Preparing to unpack .../17-ros-humble-imu-sensor-broadcaster_2.52.1-1jammy.20260325.235511_amd64.deb ...
+Unpacking ros-humble-imu-sensor-broadcaster (2.52.1-1jammy.20260325.235511) ...
+Selecting previously unselected package ros-humble-joint-limits.
+Preparing to unpack .../18-ros-humble-joint-limits_2.53.1-1jammy.20260325.224030_amd64.deb ...
+Unpacking ros-humble-joint-limits (2.53.1-1jammy.20260325.224030) ...
+Selecting previously unselected package ros-humble-ros2-control-test-assets.
+Preparing to unpack .../19-ros-humble-ros2-control-test-assets_2.53.1-1jammy.20260304.195056_amd64.deb ...
+Unpacking ros-humble-ros2-control-test-assets (2.53.1-1jammy.20260304.195056) ...
+Selecting previously unselected package ros-humble-ros2controlcli.
+Preparing to unpack .../20-ros-humble-ros2controlcli_2.53.1-1jammy.20260326.002213_amd64.deb ...
+Unpacking ros-humble-ros2controlcli (2.53.1-1jammy.20260326.002213) ...
+Selecting previously unselected package ros-humble-transmission-interface.
+Preparing to unpack .../21-ros-humble-transmission-interface_2.53.1-1jammy.20260326.001703_amd64.deb ...
+Unpacking ros-humble-transmission-interface (2.53.1-1jammy.20260326.001703) ...
+Selecting previously unselected package ros-humble-ros2-control.
+Preparing to unpack .../22-ros-humble-ros2-control_2.53.1-1jammy.20260326.002517_amd64.deb ...
+Unpacking ros-humble-ros2-control (2.53.1-1jammy.20260326.002517) ...
+Selecting previously unselected package ros-humble-tricycle-controller.
+Preparing to unpack .../23-ros-humble-tricycle-controller_2.52.1-1jammy.20260325.234257_amd64.deb ...
+Unpacking ros-humble-tricycle-controller (2.52.1-1jammy.20260325.234257) ...
+Selecting previously unselected package ros-humble-velocity-controllers.
+Preparing to unpack .../24-ros-humble-velocity-controllers_2.52.1-1jammy.20260325.235838_amd64.deb ...
+Unpacking ros-humble-velocity-controllers (2.52.1-1jammy.20260325.235838) ...
+Selecting previously unselected package ros-humble-gazebo-ros2-control-demos.
+Preparing to unpack .../25-ros-humble-gazebo-ros2-control-demos_0.4.10-1jammy.20260326.002602_amd64.deb ...
+Unpacking ros-humble-gazebo-ros2-control-demos (0.4.10-1jammy.20260326.002602) ...
+Selecting previously unselected package ros-humble-gazebo-ros2-control-demos-dbgsym.
+Preparing to unpack .../26-ros-humble-gazebo-ros2-control-demos-dbgsym_0.4.10-1jammy.20260326.002602_amd64.deb ...
+Unpacking ros-humble-gazebo-ros2-control-demos-dbgsym (0.4.10-1jammy.20260326.002602) ...
+Selecting previously unselected package ros-humble-gazebo-set-joint-positions-plugin.
+Preparing to unpack .../27-ros-humble-gazebo-set-joint-positions-plugin_1.0.3-1jammy.20260326.010453_amd64.deb ...
+Unpacking ros-humble-gazebo-set-joint-positions-plugin (1.0.3-1jammy.20260326.010453) ...
+Selecting previously unselected package ros-humble-gazebo-set-joint-positions-plugin-dbgsym.
+Preparing to unpack .../28-ros-humble-gazebo-set-joint-positions-plugin-dbgsym_1.0.3-1jammy.20260326.010453_amd64.deb ...
+Unpacking ros-humble-gazebo-set-joint-positions-plugin-dbgsym (1.0.3-1jammy.20260326.010453) ...
+Selecting previously unselected package ros-humble-gazebo-video-monitor-interfaces.
+Preparing to unpack .../29-ros-humble-gazebo-video-monitor-interfaces_0.8.1-1jammy.20260304.211802_amd64.deb ...
+Unpacking ros-humble-gazebo-video-monitor-interfaces (0.8.1-1jammy.20260304.211802) ...
+Selecting previously unselected package ros-humble-gazebo-video-monitor-interfaces-dbgsym.
+Preparing to unpack .../30-ros-humble-gazebo-video-monitor-interfaces-dbgsym_0.8.1-1jammy.20260304.211802_amd64.deb ...
+Unpacking ros-humble-gazebo-video-monitor-interfaces-dbgsym (0.8.1-1jammy.20260304.211802) ...
+Selecting previously unselected package ros-humble-gazebo-video-monitor-plugins.
+Preparing to unpack .../31-ros-humble-gazebo-video-monitor-plugins_0.8.1-1jammy.20260325.224319_amd64.deb ...
+Unpacking ros-humble-gazebo-video-monitor-plugins (0.8.1-1jammy.20260325.224319) ...
+Selecting previously unselected package ros-humble-gazebo-video-monitor-plugins-dbgsym.
+Preparing to unpack .../32-ros-humble-gazebo-video-monitor-plugins-dbgsym_0.8.1-1jammy.20260325.224319_amd64.deb ...
+Unpacking ros-humble-gazebo-video-monitor-plugins-dbgsym (0.8.1-1jammy.20260325.224319) ...
+Selecting previously unselected package ros-humble-gazebo-video-monitor-utils.
+Preparing to unpack .../33-ros-humble-gazebo-video-monitor-utils_0.8.1-1jammy.20260310.165242_amd64.deb ...
+Unpacking ros-humble-gazebo-video-monitor-utils (0.8.1-1jammy.20260310.165242) ...
+Selecting previously unselected package ros-humble-gazebo-video-monitors.
+Preparing to unpack .../34-ros-humble-gazebo-video-monitors_0.8.1-1jammy.20260326.001033_amd64.deb ...
+Unpacking ros-humble-gazebo-video-monitors (0.8.1-1jammy.20260326.001033) ...
+Setting up ros-humble-velocity-controllers (2.52.1-1jammy.20260325.235838) ...
+Setting up ros-humble-ros2-control-test-assets (2.53.1-1jammy.20260304.195056) ...
+Setting up ros-humble-gazebo-model-attachment-plugin-msgs (1.0.3-2jammy.20260325.220653) ...
+Setting up ros-humble-gazebo-msgs-dbgsym (3.9.0-1jammy.20260304.215513) ...
+Setting up ros-humble-gazebo-plugins-dbgsym (3.9.0-1jammy.20260325.235919) ...
+Setting up ros-humble-gazebo-model-attachment-plugin-msgs-dbgsym (1.0.3-2jammy.20260325.220653) ...
+Setting up ros-humble-gazebo-planar-move-plugin (1.0.2-1jammy.20260325.235916) ...
+Setting up ros-humble-effort-controllers (2.52.1-1jammy.20260325.235757) ...
+Setting up ros-humble-gazebo-ros-dbgsym (3.9.0-1jammy.20260325.220654) ...
+Setting up ros-humble-gazebo-video-monitor-utils (0.8.1-1jammy.20260310.165242) ...
+Setting up ros-humble-gazebo-no-physics-plugin (0.1.1-2jammy.20260325.224259) ...
+Setting up ros-humble-gazebo-set-joint-positions-plugin (1.0.3-1jammy.20260326.010453) ...
+Setting up ros-humble-joint-limits (2.53.1-1jammy.20260325.224030) ...
+Setting up ros-humble-gazebo-ros2-control (0.4.10-1jammy.20260325.235140) ...
+Setting up ros-humble-ackermann-msgs (2.0.2-3jammy.20260304.212924) ...
+Setting up python3-pygraphviz (1.7-3build1) ...
+Setting up ros-humble-diff-drive-controller (2.52.1-1jammy.20260325.234409) ...
+Setting up ros-humble-imu-sensor-broadcaster (2.52.1-1jammy.20260325.235511) ...
+Setting up ros-humble-transmission-interface (2.53.1-1jammy.20260326.001703) ...
+Setting up ros-humble-gazebo-model-attachment-plugin (1.0.3-2jammy.20260325.224255) ...
+Setting up ros-humble-gazebo-video-monitor-interfaces (0.8.1-1jammy.20260304.211802) ...
+Setting up ros-humble-gazebo-set-joint-positions-plugin-dbgsym (1.0.3-1jammy.20260326.010453) ...
+Setting up ros-humble-gazebo-ros2-control-dbgsym (0.4.10-1jammy.20260325.235140) ...
+Setting up ros-humble-gazebo-planar-move-plugin-dbgsym (1.0.2-1jammy.20260325.235916) ...
+Setting up ros-humble-gazebo-no-physics-plugin-dbgsym (0.1.1-2jammy.20260325.224259) ...
+Setting up ros-humble-gazebo-video-monitor-interfaces-dbgsym (0.8.1-1jammy.20260304.211802) ...
+Setting up ros-humble-gazebo-video-monitor-plugins (0.8.1-1jammy.20260325.224319) ...
+Setting up ros-humble-tricycle-controller (2.52.1-1jammy.20260325.234257) ...
+Setting up ros-humble-ros2controlcli (2.53.1-1jammy.20260326.002213) ...
+Setting up ros-humble-gazebo-model-attachment-plugin-dbgsym (1.0.3-2jammy.20260325.224255) ...
+Setting up ros-humble-gazebo-video-monitors (0.8.1-1jammy.20260326.001033) ...
+Setting up ros-humble-ros2-control (2.53.1-1jammy.20260326.002517) ...
+Setting up ros-humble-gazebo-video-monitor-plugins-dbgsym (0.8.1-1jammy.20260325.224319) ...
+Setting up ros-humble-gazebo-ros2-control-demos (0.4.10-1jammy.20260326.002602) ...
+Setting up ros-humble-gazebo-ros2-control-demos-dbgsym (0.4.10-1jammy.20260326.002602) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.13) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  python3-bloom python3-catkin-pkg python3-colcon-mixin python3-rosdistro
+  python3-vcstool ros-build-essential
+The following NEW packages will be installed:
+  python3-bloom python3-catkin-pkg python3-colcon-mixin python3-rosdistro
+  python3-vcstool ros-build-essential ros-dev-tools
+0 upgraded, 7 newly installed, 0 to remove and 18 not upgraded.
+Need to get 118 kB of archives.
+After this operation, 918 kB of additional disk space will be used.
+Get:1 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 python3-rosdistro all 1.0.1-100 [3,724 B]
+Get:2 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 python3-catkin-pkg all 1.1.0-101 [3,932 B]
+Get:3 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 python3-bloom all 0.14.2+upstream-1 [71.9 kB]
+Get:4 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 python3-colcon-mixin all 0.2.3-100 [11.0 kB]
+Get:5 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 python3-vcstool all 0.3.0-1 [23.1 kB]
+Get:6 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-build-essential all 1.0.1 [2,256 B]
+Get:7 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy/main amd64 ros-dev-tools all 1.0.1 [1,752 B]
+Fetched 118 kB in 2s (50.2 kB/s)
+Selecting previously unselected package python3-rosdistro.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 339241 files and directories currently installed.)
+Preparing to unpack .../0-python3-rosdistro_1.0.1-100_all.deb ...
+Unpacking python3-rosdistro (1.0.1-100) ...
+Selecting previously unselected package python3-catkin-pkg.
+Preparing to unpack .../1-python3-catkin-pkg_1.1.0-101_all.deb ...
+Unpacking python3-catkin-pkg (1.1.0-101) ...
+Selecting previously unselected package python3-bloom.
+Preparing to unpack .../2-python3-bloom_0.14.2+upstream-1_all.deb ...
+Unpacking python3-bloom (0.14.2+upstream-1) ...
+Selecting previously unselected package python3-colcon-mixin.
+Preparing to unpack .../3-python3-colcon-mixin_0.2.3-100_all.deb ...
+Unpacking python3-colcon-mixin (0.2.3-100) ...
+Selecting previously unselected package python3-vcstool.
+Preparing to unpack .../4-python3-vcstool_0.3.0-1_all.deb ...
+Unpacking python3-vcstool (0.3.0-1) ...
+Selecting previously unselected package ros-build-essential.
+Preparing to unpack .../5-ros-build-essential_1.0.1_all.deb ...
+Unpacking ros-build-essential (1.0.1) ...
+Selecting previously unselected package ros-dev-tools.
+Preparing to unpack .../6-ros-dev-tools_1.0.1_all.deb ...
+Unpacking ros-dev-tools (1.0.1) ...
+Setting up python3-catkin-pkg (1.1.0-101) ...
+Setting up python3-vcstool (0.3.0-1) ...
+Setting up python3-colcon-mixin (0.2.3-100) ...
+Setting up python3-rosdistro (1.0.1-100) ...
+Setting up ros-build-essential (1.0.1) ...
+Setting up python3-bloom (0.14.2+upstream-1) ...
+Setting up ros-dev-tools (1.0.1) ...
+ROS2 humble environment is already set in /home/realman/.bashrc
+Looking in indexes: http://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: rosdep in /usr/lib/python3/dist-packages (0.26.0)
+Looking in indexes: http://pypi.tuna.tsinghua.edu.cn/simple
+Collecting rosdepc
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d2/07/fb31bd92c42076000184e34be0212bb9b5a20da3d75ce14288cca4f668cf/rosdepc-1.1.0-py3-none-any.whl (3.7 kB)
+Requirement already satisfied: rosdep in /usr/lib/python3/dist-packages (from rosdepc) (0.26.0)
+Installing collected packages: rosdepc
+Successfully installed rosdepc-1.1.0
+rosdepc init completed!
+Hit:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy InRelease
+Hit:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates InRelease
+Hit:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-backports InRelease
+Hit:4 https://mirrors.tuna.tsinghua.edu.cn/ros2/ubuntu jammy InRelease
+Hit:5 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:6 https://deb.nodesource.com/node_22.x nodistro InRelease
+Hit:7 https://mirrors.ustc.edu.cn/ros2/ubuntu jammy InRelease
+Hit:8 http://packages.ros.org/ros2/ubuntu jammy InRelease
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  libnvidia-cfg1-550 libnvidia-common-550 libnvidia-compute-550
+  libnvidia-decode-550 libnvidia-encode-550 libnvidia-extra-550
+  libnvidia-fbc1-550 libnvidia-gl-550 nvidia-compute-utils-550
+  nvidia-firmware-550-550.107.02 nvidia-kernel-common-550
+  nvidia-kernel-source-550 nvidia-utils-550 xserver-xorg-video-nvidia-550
+Use 'sudo apt autoremove' to remove them.
+The following NEW packages will be installed:
+  gcc-12-base:i386 krb5-locales libbsd0:i386 libc6:i386 libcom-err2:i386
+  libcrypt1:i386 libdrm2:i386 libexpat1:i386 libffi8:i386 libgbm1:i386
+  libgcc-s1:i386 libgssapi-krb5-2:i386 libidn2-0:i386 libk5crypto3:i386
+  libkeyutils1:i386 libkrb5-3:i386 libkrb5support0:i386 libmd0:i386
+  libnsl2:i386 libnss-nis:i386 libnss-nisplus:i386 libnvidia-cfg1-580
+  libnvidia-common-580 libnvidia-compute-580 libnvidia-compute-580:i386
+  libnvidia-decode-580 libnvidia-decode-580:i386 libnvidia-egl-wayland1:i386
+  libnvidia-encode-580 libnvidia-encode-580:i386 libnvidia-extra-580
+  libnvidia-fbc1-580 libnvidia-fbc1-580:i386 libnvidia-gl-580
+  libnvidia-gl-580:i386 libssl3:i386 libtirpc3:i386 libunistring2:i386
+  libwayland-client0:i386 libwayland-server0:i386 libx11-6:i386
+  libx11-xcb1:i386 libxau6:i386 libxcb-dri3-0:i386 libxcb-present0:i386
+  libxcb-randr0:i386 libxcb1:i386 libxdmcp6:i386 libxext6:i386
+  netplan-generator nvidia-compute-utils-580 nvidia-dkms-580 nvidia-driver-580
+  nvidia-firmware-580-580.142 nvidia-kernel-common-580
+  nvidia-kernel-source-580 nvidia-utils-580 python3-netplan
+  xserver-xorg-video-nvidia-580
+The following packages have been kept back:
+  iproute2
+The following packages will be upgraded:
+  libnetplan0 libnvidia-cfg1-550 libnvidia-common-550 libnvidia-compute-550
+  libnvidia-decode-550 libnvidia-encode-550 libnvidia-extra-550
+  libnvidia-fbc1-550 libnvidia-gl-550 netplan.io nvidia-compute-utils-550
+  nvidia-dkms-550 nvidia-driver-550 nvidia-kernel-common-550
+  nvidia-kernel-source-550 nvidia-utils-550 xserver-xorg-video-nvidia-550
+17 upgraded, 59 newly installed, 0 to remove and 1 not upgraded.
+Need to get 499 MB of archives.
+After this operation, 929 MB of additional disk space will be used.
+Get:1 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 gcc-12-base i386 12.3.0-1ubuntu1~22.04.3 [216 kB]
+Get:2 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libgcc-s1 i386 12.3.0-1ubuntu1~22.04.3 [64.0 kB]
+Get:3 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libcrypt1 i386 1:4.4.27-1 [97.2 kB]
+Get:4 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libc6 i386 2.35-0ubuntu3.13 [3,012 kB]
+Get:5 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libcom-err2 i386 1.46.5-2ubuntu1.2 [9,764 B]
+Get:6 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libkrb5support0 i386 1.19.2-2ubuntu0.7 [37.4 kB]
+Get:7 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libk5crypto3 i386 1.19.2-2ubuntu0.7 [91.2 kB]
+Get:8 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libkeyutils1 i386 1.6.1-2ubuntu3 [10.7 kB]
+Get:9 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libssl3 i386 3.0.2-0ubuntu1.23 [1,947 kB]
+Get:10 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libkrb5-3 i386 1.19.2-2ubuntu0.7 [404 kB]
+Get:11 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libgssapi-krb5-2 i386 1.19.2-2ubuntu0.7 [154 kB]
+Get:12 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libtirpc3 i386 1.3.2-2ubuntu0.1 [92.8 kB]
+Get:13 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libnsl2 i386 1.3.0-2build2 [46.2 kB]
+Get:14 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libmd0 i386 1.0.4-1build1 [23.8 kB]
+Get:15 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libbsd0 i386 0.11.5-1 [48.3 kB]
+Get:16 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libexpat1 i386 2.4.7-1ubuntu0.7 [94.9 kB]
+Get:17 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libffi8 i386 3.4.2-4 [20.7 kB]
+Get:18 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libunistring2 i386 1.0-1 [554 kB]
+Get:19 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libidn2-0 i386 2.3.2-2build1 [71.1 kB]
+Get:20 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 netplan.io amd64 0.107.1-3ubuntu0.22.04.3 [56.3 kB]
+Get:21 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 netplan-generator amd64 0.107.1-3ubuntu0.22.04.3 [57.1 kB]
+Get:22 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 python3-netplan amd64 0.107.1-3ubuntu0.22.04.3 [23.1 kB]
+Get:23 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 libnetplan0 amd64 0.107.1-3ubuntu0.22.04.3 [117 kB]
+Get:24 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libxau6 i386 1:1.0.9-1build5 [7,924 B]
+Get:25 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libxdmcp6 i386 1:1.1.3-0ubuntu5 [11.4 kB]
+Get:26 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libxcb1 i386 1.14-3ubuntu3 [55.4 kB]
+Get:27 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libx11-6 i386 2:1.7.5-1ubuntu0.3 [694 kB]
+Get:28 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libxext6 i386 2:1.3.4-1build1 [34.8 kB]
+Get:29 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main amd64 krb5-locales all 1.19.2-2ubuntu0.7 [12.2 kB]
+Get:30 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libdrm2 i386 2.4.113-2~ubuntu0.22.04.1 [42.1 kB]
+Get:31 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libwayland-server0 i386 1.20.0-1ubuntu0.1 [37.4 kB]
+Get:32 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libxcb-randr0 i386 1.14-3ubuntu3 [19.9 kB]
+Get:33 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/main i386 libgbm1 i386 23.2.1-1ubuntu3.1~22.04.3 [35.3 kB]
+Get:34 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libnss-nis i386 3.1-0ubuntu6 [28.2 kB]
+Get:35 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy/main i386 libnss-nisplus i386 1.3-0ubuntu6 [23.7 kB]
+Get:36 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 nvidia-driver-550 amd64 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:37 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 nvidia-dkms-550 amd64 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:38 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 nvidia-kernel-source-550 amd64 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:39 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 nvidia-kernel-source-580 amd64 580.142-0ubuntu0.22.04.1 [84.0 MB]
+Get:40 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 nvidia-firmware-580-580.142 amd64 580.142-0ubuntu0.22.04.1 [76.0 MB]
+Get:41 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 nvidia-dkms-580 amd64 580.142-0ubuntu0.22.04.1 [37.8 kB]
+Get:42 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 nvidia-kernel-common-550 amd64 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:43 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 nvidia-kernel-common-580 amd64 580.142-0ubuntu0.22.04.1 [787 kB]
+Get:44 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-extra-550 amd64 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:45 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-extra-580 amd64 580.142-0ubuntu0.22.04.1 [79.3 kB]
+Get:46 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-common-550 all 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:47 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-common-580 all 580.142-0ubuntu0.22.04.1 [18.4 kB]
+Get:48 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-gl-550 amd64 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:49 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-decode-550 amd64 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:50 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-decode-580 amd64 580.142-0ubuntu0.22.04.1 [3,185 kB]
+Get:51 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-compute-550 amd64 550.163.01-0ubuntu0.22.04.2 [11.0 kB]
+Get:52 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-compute-580 amd64 580.142-0ubuntu0.22.04.1 [60.0 MB]
+Get:53 https://mirrors.tuna.tsinghua.edu.cn/ubuntu jammy-updates/restricted amd64 libnvidia-gl-580 amd64 580.142-0ubuntu0.22.04.1 [173 MB]
